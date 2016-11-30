@@ -1,0 +1,100 @@
+/*header*/
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	padding-right: 50px;
+	background-color: white;
+}
+header .navbar-brand {
+	text-decoration: none;
+	color: grey;
+}
+header .navbar-nav li a {
+	text-decoration: none;
+	color: grey;
+}
+/*inicio*/
+.jumbotron {
+	background-image: url(../img/home.jpg);
+	background-size: cover;
+	border-radius: 0px;
+	margin: 0;
+	margin-top: 80px;
+	padding: 150px 30px;
+}
+.jumbotron h1 {
+	font-size: 40px !important;
+	color: white !important;
+}
+.jumbotron p {
+	font-size: 15px;
+}
+.jumbotron button {
+	align: center;
+	margin: 10px auto;
+}
+/*documental*/
+.documental {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.documental h2 {
+	margin-bottom: 40px;
+}
+.documental h3 {
+	margin: 20px auto;
+}
+.documental p {
+	margin: 20px 50px;
+}
+.documental iframe {
+	margin: 5%;
+}
+/*hackaton*/
+.hackaton {
+	background-color: yellow;
+	padding: 50px;
+	padding-right: 20px;
+}
+.hackaton h2 {
+	margin: 40px;
+}
+.hackaton p {
+	margin: 20px 50px 20px 0;
+}
+/*contacto*/
+.contacto {
+	padding: 50px;
+}
+.contacto h2 {
+	margin: 20px;
+}
+.contacto p {
+	margin: 0;
+}
+.negrita {
+	font-weight: bold;
+}
+form {
+	margin: 20px auto;
+}
+form button {
+	margin-top: 10px;
+}
+/*footer*/
+footer {
+	background-color: rgb(68, 151, 163);
+	padding: 30px 50px !important;
+}
+footer p {
+	color: white;
+}
+footer a {
+	text-decoration: none;
+	color: yellow;
+}
