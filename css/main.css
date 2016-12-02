@@ -1,4 +1,5 @@
 /*header*/
+
 header {
 	position: fixed;
 	width: 100%;
@@ -19,7 +20,7 @@ header .navbar-nav li a {
 	color: grey;
 }
 /*inicio*/
-.jumbotron {
+.chicas {
 	background-image: url(../img/home.jpg);
 	background-size: cover;
 	border-radius: 0px;
@@ -27,14 +28,14 @@ header .navbar-nav li a {
 	margin-top: 80px;
 	padding: 150px 30px;
 }
-.jumbotron h1 {
+.chicas h1 {
 	font-size: 40px !important;
 	color: white !important;
 }
-.jumbotron p {
+.chicas p {
 	font-size: 15px;
 }
-.jumbotron button {
+.chicas button {
 	align: center;
 	margin: 10px auto;
 }
@@ -98,3 +99,4 @@ footer a {
 	text-decoration: none;
 	color: yellow;
 }
+/*---------------------------------*/>
